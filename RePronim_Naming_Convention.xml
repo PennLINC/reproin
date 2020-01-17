@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office User</Author>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <Created>2020-01-15T14:44:03Z</Created>
+  <LastSaved>2020-01-15T22:06:27Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16740</WindowHeight>
+  <WindowWidth>28160</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>680</WindowTopY>
+  <TabRatio>500</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s18">
+   <Font ss:FontName="Helvetica" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Font ss:FontName="Arial Unicode MS" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders/>
+   <Font ss:FontName="Arial Unicode MS" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders/>
+   <Font ss:FontName="Helvetica" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#201F1E"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#201F1E"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Font ss:FontName="Arial" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font ss:FontName="Arial" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ReProin Naming">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:Width="53"/>
+   <Column ss:Width="47"/>
+   <Column ss:AutoFitWidth="0" ss:Width="77"/>
+   <Column ss:Width="72"/>
+   <Column ss:Width="98"/>
+   <Column ss:Width="95"/>
+   <Column ss:Width="73"/>
+   <Column ss:Width="125"/>
+   <Column ss:Index="11" ss:Width="159"/>
+   <Column ss:Index="14" ss:Width="638"/>
+   <Row ss:Height="17">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PNC</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">[PREFIX:] </Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">&lt;seqtype</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">[-label]&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_ses-&lt;SESID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_task-&lt;TASKID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_acq-&lt;ACQLABEL&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_run-&lt;RUNID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_dir-[AP,PA,LR,RL,VD,DV]</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_seq</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">__&lt;custom&gt;</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">ReProin Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">localizer</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">anat</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-scout</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-01</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">localizer</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anat-scout_ses-01__localizer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">MPRAGE_TI1100_ipat2</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">anat</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-T1w</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">MPRAGE_TI1100_ipat2</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anat-T1w__MPRAGE_TI1100_ipat2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ep2d_se_pcasl_PHC_1200ms</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">func</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-asl</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-pCASL</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ep2d_se_pcasl_PHC_1200ms</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-asl_acq-pCASL__ep2d_se_pcasl_PHC_1200ms</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">epi_singlerep_advshim</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">func</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-bold-singlerep</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-singleRep</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">epi_singlerep_advshim</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold-singlerep_acq-singleRep__epi_singlerep_advshim</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">B0map_onesizefitsall_v3</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">fmap</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-onesize</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">B0map_onesizefitsall_v3</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">fmap-onesize__B0map_onesizefitsall_v3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">bbl1_frac2back1_231</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">func</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-fractalNback</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">bbl1_frac2back1_231</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-fractalNback__bbl1_frac2back1_231</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">bbl1_idemo2_210</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">func</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-EmoID</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">bbl1_idemo2_210</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-EmoID__bbl1_idemo2_210</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">DTI_2x32_35</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">dwi</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-singleshell</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-35vol</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">_dir-AP</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">DTI_2x32_35</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">dwi-singleshell_acq-35vol_dir-AP__DTI_2x32_35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">DTI_2x32_36</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">dwi</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">-singleshell</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-36vol</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">_dir-AP</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">DTI_2x32_36</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">dwi-singleshell_acq-36vol_dir-AP__DTI_2x32_36</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s22">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">bbl1_restbold1_124</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">func</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">-rest</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-restbold</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-124volume</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="Default" ss:Formula="=RC[-10]"><Data
+      ss:Type="String">bbl1_restbold1_124</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="Default"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-rest_task-restbold_acq-124volume__bbl1_restbold1_124</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:Height="17">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Motive</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">[PREFIX:] </Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">&lt;seqtype</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">[-label]&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_ses-&lt;SESID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_task-&lt;TASKID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_acq-&lt;ACQLABEL&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_run-&lt;RUNID&gt;</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">_dir-[AP,PA,LR,RL,VD,DV]</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">&lt;more BIDS&gt;</Data></Cell>
+    <Cell ss:Formula="=RC[-10]"><Data ss:Type="String">Motive</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">[PREFIX:] &lt;seqtype[-label]&gt;_ses-&lt;SESID&gt;_task-&lt;TASKID&gt;_acq-&lt;ACQLABEL&gt;_run-&lt;RUNID&gt;_dir-[AP,PA,LR,RL,VD,DV]&lt;more BIDS&gt;__Motive</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">localizer_32ch</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">anat</Data></Cell>
+    <Cell><Data ss:Type="String">scout</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-01</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">localizer_32ch</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anatscout_ses-01__localizer_32ch</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_T1w_MPR_vNav_setter</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">anat</Data></Cell>
+    <Cell><Data ss:Type="String">-navsetter_T1w</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_T1w_MPR_vNav_setter</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anat-navsetter_T1w__ABCD_T1w_MPR_vNav_setter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_T1w_MPR_vNav</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">anat</Data></Cell>
+    <Cell><Data ss:Type="String">-T1w</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_T1w_MPR_vNav</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anat-T1w__ABCD_T1w_MPR_vNav</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_DistortionMap_PA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">fmap</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-fMRIdistmap</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">_dir-PA</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_DistortionMap_PA</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">fmap_acq-fMRIdistmap_dir-PA__ABCD_fMRI_DistortionMap_PA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_DistortionMap_AP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">fmap</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">_acq-fMRIdistmap</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">_dir-AP</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_DistortionMap_AP</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">fmap_acq-fMRIdistmap_dir-AP__ABCD_fMRI_DistortionMap_AP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_motive1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-motive1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">_run-01</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_motive1</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-motive1_run-01__ABCD_fMRI_motive1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_motive2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-motive2</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">_run-02</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_motive2</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-motive2_run-02__ABCD_fMRI_motive2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_motive3</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-motive3</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">_run-03</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_motive3</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-motive3_run-03__ABCD_fMRI_motive3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_rest</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-restbold</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">_run-01</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_rest</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-restbold_run-01__ABCD_fMRI_rest</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">ABCD_fMRI_rest</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String">-bold</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_task-restbold</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">_run-02</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">ABCD_fMRI_rest</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">func-bold_task-restbold_run-02__ABCD_fMRI_rest</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">QSM_SWI_1.5mm</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">anat</Data></Cell>
+    <Cell><Data ss:Type="String">-qsm</Data></Cell>
+    <Cell ss:Index="11" ss:Formula="=RC[-10]"><Data ss:Type="String">QSM_SWI_1.5mm</Data></Cell>
+    <Cell ss:Index="14"
+     ss:Formula="=RC[-12]&amp;RC[-11]&amp;RC[-10]&amp;RC[-9]&amp;RC[-8]&amp;RC[-7]&amp;RC[-6]&amp;RC[-5]&amp;RC[-4]&amp;&quot;__&quot;&amp;RC[-3]"><Data
+      ss:Type="String">anat-qsm__QSM_SWI_1.5mm</Data></Cell>
+   </Row>
+   <Row ss:Index="28">
+    <Cell><Data ss:Type="String">**Notes**</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PREFIX is optional; CAPITAL LETTERS;must be followed by &quot;:&quot;; text will be stripped)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;custom&gt; is preceeded by two underscores (text will be stripped)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">do NOT use -,+,_ within SESID, TASKID, ACQLABEL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;seqtype&gt; field should often be followed by a single “-“ label, but not multiple ones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">fmap-B0phase&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; # for mag/phase method e.g. gre_field_mapping</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">fmap-EPIdist&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; # for TOPUP based</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C3:R13C3,R15C3:R27C3</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C1:R5C1</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C4:R13C4,R15C4:R27C4</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C2:R200C2</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C5:R13C5,R15C5:R27C5</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C3:R200C3</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C8:R13C8,R15C8:R27C8</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C6:R11C6</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C9:R13C9,R15C9:R27C9</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C7:R7C7</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C10:R26C10</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C8:R200C8</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C7:R13C7,R15C7:R27C7</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C5:R200C5</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C6:R13C6,R15C6:R27C6</Range>
+   <Type>List</Type>
+   <Value>LookUpTable!R2C4:R200C4</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="LookUpTable">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="38" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Index="4" ss:Width="143"/>
+   <Column ss:Width="83"/>
+   <Column ss:Index="8" ss:Width="96"/>
+   <Row ss:Height="17">
+    <Cell><Data ss:Type="String">seqtype</Data></Cell>
+    <Cell><Data ss:Type="String">label</Data></Cell>
+    <Cell><Data ss:Type="String">session</Data></Cell>
+    <Cell><Data ss:Type="String">task</Data></Cell>
+    <Cell><Data ss:Type="String">acqusition label</Data></Cell>
+    <Cell><Data ss:Type="String">run ID</Data></Cell>
+    <Cell><Data ss:Type="String">dir</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">seq</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">__&lt;custom&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">anat</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">-T1w</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-01</Data></Cell>
+    <Cell><Data ss:Type="String">_task-fractalNback</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-highres</Data></Cell>
+    <Cell><Data ss:Type="String">_run-01</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-AP</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">_seq-ABCD</Data></Cell>
+    <Cell><Data ss:Type="String">__PNC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">func</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">-T2w</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-02</Data></Cell>
+    <Cell><Data ss:Type="String">_task-EmoID</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-lowres</Data></Cell>
+    <Cell><Data ss:Type="String">_run-02</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-PA</Data></Cell>
+    <Cell><Data ss:Type="String">_seq-CMMR</Data></Cell>
+    <Cell><Data ss:Type="String">__ABCD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">dwi</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">-t2star</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-03</Data></Cell>
+    <Cell><Data ss:Type="String">_task-restbold</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-124volume</Data></Cell>
+    <Cell><Data ss:Type="String">_run-03</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-LR</Data></Cell>
+    <Cell><Data ss:Type="String">_seq-pcasl-2d-gre</Data></Cell>
+    <Cell><Data ss:Type="String">__HCP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">fmap</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-angio</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-04</Data></Cell>
+    <Cell><Data ss:Type="String">_task-socialapproach</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-35vol</Data></Cell>
+    <Cell><Data ss:Type="String">_run-04</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-RL</Data></Cell>
+    <Cell><Data ss:Type="String">_seq-HCP</Data></Cell>
+    <Cell><Data ss:Type="String">__MPRAGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-mrs</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-05</Data></Cell>
+    <Cell><Data ss:Type="String">_task-fractalNbackNo1back</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-36vol</Data></Cell>
+    <Cell><Data ss:Type="String">_run-05</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-VD</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">__order1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-epsi</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-06</Data></Cell>
+    <Cell><Data ss:Type="String">_task-restboldEyesopen</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-fMRIdistmap</Data></Cell>
+    <Cell><Data ss:Type="String">_run-06</Data></Cell>
+    <Cell><Data ss:Type="String">_dir-DV</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">__order2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-qsm</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-07</Data></Cell>
+    <Cell><Data ss:Type="String">_task-motive1</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-DWIdistmap</Data></Cell>
+    <Cell><Data ss:Type="String">_run-07</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-angio</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-08</Data></Cell>
+    <Cell><Data ss:Type="String">_task-motive2</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-pCASL</Data></Cell>
+    <Cell><Data ss:Type="String">_run-08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-scout</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-09</Data></Cell>
+    <Cell><Data ss:Type="String">_task-motive3</Data></Cell>
+    <Cell><Data ss:Type="String">_acq-singleRep</Data></Cell>
+    <Cell><Data ss:Type="String">_run-09</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-asl</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-10</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">_run-10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-bold</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-bold-singlerep</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-multishell</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-singleshell</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-rest</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-onesize</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String" x:Ticked="1">-navsetter_T1w</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s30"><Data ss:Type="String" x:Ticked="1">-B0phase</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-18</Data></Cell>
+   </Row>
+   <Row ss:Height="17">
+    <Cell ss:Index="2"><Data ss:Type="String" x:Ticked="1">-EPIdist</Data></Cell>
+    <Cell><Data ss:Type="String">_ses-19</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-22</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-23</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-29</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-32</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-33</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-34</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-36</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">_ses-37</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
